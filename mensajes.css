@@ -1,0 +1,63 @@
+body {
+    background-color: #96a8d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.girasol {
+    width: 400px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    font-family: Darley;
+}
+
+.card p {
+    font-size: 15px;
+    margin: 10px 0 0;
+}
+
+@font-face {
+    font-family: 'King';
+    src: url(./fonts/KGChasingCars.ttf);
+}
+
+@font-face {
+    font-family: 'Darley';
+    src: url(./fonts/Darley.ttf);
+}

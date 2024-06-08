@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/background1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #6B7AA1;
+}
+
+.container {
+    text-align: center;
+    border: 5px solid #D2D9F1;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hearts {
+    display: flex;
+}
+
+.heart, .heart.filled {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background-color: #D2D9F1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.heart.filled {
+    background-color: #96a8d6;
+}
+
+.home-icon {
+    width: 30px;
+    height: 30px;
+    background: url('home-icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+h1 {
+    font-size: 24px;
+    color: #96a8d6;
+    margin: 20px 0;
+}
+
+.center-image {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #96a8d6;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #7a90c2;
+}
+
+.content {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100px; /* Ajusta el tamaño máximo del contenedor */
+}

@@ -1,0 +1,126 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/background1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #6B7AA1;
+}
+
+.container {
+    text-align: center;
+    border: 5px solid #D2D9F1;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hearts {
+    display: flex;
+}
+
+.heart, .heart.filled {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background-color: #D2D9F1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.heart.filled {
+    background-color: #6B7AA1;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.folder {
+    background: url('folder-icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+.user {
+    background: url('user-icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+.close {
+    background: url('close-icon.png') no-repeat center center;
+    background-size: contain;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.side-image {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #96a8d6;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #7a90c2;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hearts-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.heart-footer {
+    width: 10px;
+    height: 10px;
+    margin: 0 1px;
+    background-color: #D2D9F1;
+    border-radius: 50%;
+    display: inline-block;
+}
